@@ -1,4 +1,4 @@
-var ws = new WebSocket("wss://award-pools.gl.at.ply.gg:17558/gameMaster");
+var ws = new WebSocket("ws://award-pools.gl.at.ply.gg:17558/gameMaster");
 
 ws.onopen = () => console.log("WebSocket connected");
 
